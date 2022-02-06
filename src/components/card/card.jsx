@@ -1,10 +1,11 @@
 import React from "react";
+import {Card} from './card.styled'
 
-const card = (props) => {
+const card = ({text}) => {
     return (
-        <div>
-            <p></p>
-        </div>
+        <Card>
+            <p>{text}</p>
+        </Card>
     );
 }
 
