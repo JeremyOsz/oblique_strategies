@@ -1,10 +1,10 @@
 import React from "react";
-import {Card} from './card.styled'
+import {Card} from './Card.styled'
 
 const card = ({text}) => {
     return (
         <Card>
-            <p>{text}</p>
+            <p>{`${text}`}</p>
         </Card>
     );
 }

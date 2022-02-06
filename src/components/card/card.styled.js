@@ -9,6 +9,7 @@ const Card = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    white-space: pre-line;  
 `
 
 export {Card};
